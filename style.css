@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    width: 30%;
+    height:300px;
+    margin: auto;
+    border:3px solid black;
+    border-image: initial;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(184, 70, 21);
+}
+span{
+    font-size: 50px;
+    font-family:fantasy;
+}
+label{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#favcolor{
+    width:200px;
+    height:50px;
+}
+ #submit{
+    width:150px;
+    height:40px;
+    font-size:20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* extra small devices */
+@media only screen and (max-width:600px){
+    #favcolor{
+        width:100px;
+        height:20px;
+       
+    }
+    .container{
+        height:400px;
+        background-color: darkgreen;
+    }
+}
+@media only screen and (min-width:600px){
+    #favcolor{
+        width:100px;
+        height:20px;
+       
+    }
+    .container{
+        height:400px;
+        background-color:brown;
+    }
+}
